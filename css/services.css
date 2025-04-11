@@ -1,0 +1,51 @@
+.process-flow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    margin-top: 50px;
+}
+
+.step {
+    position: relative;
+    background: #fff;
+    border-left: 5px solid orange;
+    padding: 20px 30px;
+    width: 80%;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.step:hover {
+    background: #fff8f0;
+    transform: scale(1.01);
+}
+
+.circle {
+    position: absolute;
+    top: 20px;
+    left: -35px;
+    background: orange;
+    color: white;
+    font-weight: bold;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.15);
+    font-size: 14px;
+}
+
+.step-description h4 {
+    color: orange;
+    margin-top: 0;
+    font-size: 18px;
+}
+
+.step-description p {
+    margin: 10px 0 0;
+    font-size: 15px;
+    line-height: 1.6;
+}
+6
